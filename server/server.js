@@ -7,7 +7,7 @@ const app = require("./app");
 require("dotenv").config();
 
 const PORT = process.env.PORT || 5000;
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://95.179.159.228/todoapiDB";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/todoapiDB";
 
 /* Connecting to the database and then starting the server. */
 mongoose
