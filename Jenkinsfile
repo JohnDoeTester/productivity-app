@@ -1,7 +1,7 @@
 // This is a Jenkinsfile. It is a script that Jenkins will run when a build is triggered.
 pipeline {
     // Telling Jenkins to run the pipeline on any available agent.
-    agent anY
+    agent any
 
     // This is the pipeline. It is a series of stages that Jenkins will run.
     stages {
@@ -21,5 +21,4 @@ pipeline {
                 }
             }
         }
-    }
         
