@@ -7,9 +7,7 @@ pipeline {
 				checkout scm
 			}
 		}
-	}
-}
-stage('Client Tests') {
+		stage('Client Tests') {
 	steps {
 		dir('client') {
 			sh 'npm install'
