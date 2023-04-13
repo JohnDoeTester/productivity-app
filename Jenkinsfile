@@ -8,8 +8,8 @@ pipeline {
 			}
 		}
 		stage('Client Tests') {
-	steps {
-		dir('client') {
+	         steps {
+		     dir('client') {
 			sh 'npm install'
 			sh 'npm test'
 		}
